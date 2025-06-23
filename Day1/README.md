@@ -11,7 +11,7 @@ Use **Nmap** to perform a TCP SYN scan on your local network (`192.168.0.0/24`),
 
 ## 🛠 Tools Used:
 - **Nmap** (Network Mapper)
-- Platform: Windows 10 PC
+- Platform: Windows 11 PC
 - Command Line / Terminal
 
 ---
