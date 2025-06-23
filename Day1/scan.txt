@@ -1,0 +1,34 @@
+
+```text
+# Nmap 7.94 scan initiated at 2025-06-23 12:00
+Nmap scan report for 192.168.0.1
+Host is up (0.0050s latency).
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+
+Nmap scan report for 192.168.0.100
+Host is up (0.0020s latency).
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+
+Nmap scan report for 192.168.0.103
+Host is up (0.0030s latency).
+PORT     STATE SERVICE
+5555/tcp open  adb
+
+Nmap scan report for 192.168.0.104
+Host is up (0.0018s latency).
+PORT     STATE SERVICE
+80/tcp   open  http
+8009/tcp open  ajp13
+
+Nmap scan report for 192.168.0.105
+Host is up (0.0032s latency).
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+
+# Scan complete at 2025-06-23 12:00 — 5 hosts up 
