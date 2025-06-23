@@ -4,7 +4,6 @@ This repository contains all completed tasks for the **Cybersecurity Internship*
 
 Each day's work is organized into a separate folder (e.g., `Day1`, `Day2`, etc.) and includes:
 - 🔧 Task solutions
-- 📄 Interview question answers
 - 💡 Observations and learnings
 - 📁 Supporting files (e.g., scan outputs, screenshots)
 
