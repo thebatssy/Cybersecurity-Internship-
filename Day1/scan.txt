@@ -1,5 +1,4 @@
 
-```text
 # Nmap 7.94 scan initiated at 2025-06-23 12:00
 Nmap scan report for 192.168.0.1
 Host is up (0.0050s latency).
