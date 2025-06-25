@@ -1,0 +1,25 @@
+# Phishing Analysis Report
+
+**Sender Email:** service@paypa1.com
+- This is a spoofed address. Note the domain typo: "paypa1.com" instead of "paypal.com" (uses '1' instead of 'l').
+
+**Subject Line:** "Urgent: Account Access Limited"
+- Creates urgency and fear to trick the user into acting quickly.
+
+**Suspicious Link:**
+- http://paypal-verification-alert-security.com/login
+- Fake domain attempting to impersonate PayPal. Always hover over links to verify the real URL.
+
+**Language:**
+- Contains threatening tone ("your account will be permanently suspended") and urgent call to action.
+
+**Spelling & Grammar:**
+- Relatively correct but uses generic greeting ("Dear Customer") instead of user's real name, a common phishing trait.
+
+**Email Header Analysis:**
+- Used MXToolbox to analyze headers.
+- Discrepancies in SPF/DKIM/DMARC alignment indicate spoofing.
+
+**Conclusion:**
+- This email exhibits classic signs of phishing: fake domain, urgent language, generic greeting, suspicious link, and header spoofing.
+```
