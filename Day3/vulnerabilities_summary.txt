@@ -1,0 +1,16 @@
+Summary of Vulnerabilities Detected:
+
+1. SMBv1 Protocol Enabled
+   - CVE-2017-0144 (WannaCry)
+   - Severity: CRITICAL
+   - Fix: Disable SMBv1 via Windows Features
+
+2. TLS 1.0 Support Detected
+   - Deprecated Protocol
+   - Severity: HIGH
+   - Fix: Disable TLS 1.0, enable TLS 1.2+
+
+3. Outdated Chrome Browser
+   - Multiple CVEs possible
+   - Severity: MEDIUM
+   - Fix: Update to latest version
