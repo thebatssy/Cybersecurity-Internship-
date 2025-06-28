@@ -1,0 +1,15 @@
+# List existing rules
+netsh advfirewall firewall show rule name=all
+
+# Add rule to block inbound Telnet (port 23)
+netsh advfirewall firewall add rule name="Block Telnet" protocol=TCP dir=in localport=23 action=block
+
+# Test the block
+telnet 127.0.0.1 23
+# Output: Connecting To 127.0.0.1...Could not open connection to the host on port 23: Connect failed
+
+# Add rule to allow inbound SSH (port 22)
+netsh advfirewall firewall add rule name="Allow SSH" protocol=TCP dir=in localport=22 action=allow
+
+# Remove Telnet block rule
+netsh advfirewall firewall delete rule name="Block Telnet"
