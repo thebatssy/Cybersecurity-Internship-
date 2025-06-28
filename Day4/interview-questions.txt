@@ -1,0 +1,26 @@
+1. What is a firewall?
+A firewall is a security system that monitors and controls incoming and outgoing network traffic based on predetermined rules.
+
+2. Difference between stateful and stateless firewall?
+Stateful firewalls track active connections and decide based on context, while stateless firewalls filter traffic based on static rules.
+
+3. What are inbound and outbound rules?
+Inbound rules control traffic coming into the device; outbound rules control traffic going out from the device.
+
+4. How does UFW simplify firewall management?
+UFW is a command-line tool on Linux that simplifies iptables-based firewall management using simple syntax.
+
+5. Why block port 23 (Telnet)?
+Port 23 is used for Telnet, which transmits data in plaintext. It's insecure and commonly targeted, so it’s blocked for safety.
+
+6. What are common firewall mistakes?
+- Leaving unnecessary ports open
+- Not updating rules
+- Relying only on firewall for security
+- Misconfiguring rule directions
+
+7. How does a firewall improve network security?
+It restricts unauthorized access, limits malware communication, and enforces policy-based traffic control.
+
+8. What is NAT in firewalls?
+Network Address Translation (NAT) maps private IPs to public ones, allowing multiple devices to access the internet securely via one public IP.
