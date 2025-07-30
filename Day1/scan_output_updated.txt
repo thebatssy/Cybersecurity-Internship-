@@ -1,0 +1,25 @@
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-07-30 20:43 +0530
+Nmap scan report for 172.26.130.143
+Host is up (0.0086s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: xx:xx:xx:xx:xx:xx (Hidden for privacy)
+
+Nmap scan report for 172.26.130.161
+Host is up (0.00067s latency).
+Not shown: 989 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1801/tcp open  msmq
+2103/tcp open  zephyr-clt
+2105/tcp open  eklogin
+2107/tcp open  msmq-mgmt
+2869/tcp open  icslap
+3306/tcp open  mysql
+8090/tcp open  opsmessaging
+
+Nmap done: 256 IP addresses (2 hosts up) scanned in 36.39 seconds
