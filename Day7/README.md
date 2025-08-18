@@ -1,5 +1,5 @@
-# Cyber Security Internship – Task 7  
-**Identify and Remove Suspicious Browser Extensions**  
+# Day 7 - Identify and Remove Suspicious Browser Extensions  
+
 
 ### 🎯 Objective  
 Learn how to spot and remove potentially harmful browser extensions.  
