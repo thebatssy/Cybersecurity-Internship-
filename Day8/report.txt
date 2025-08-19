@@ -1,0 +1,31 @@
+Steps Performed:
+1. Baseline check of my internet connection:
+   - Public IP address (via whatismyipaddress.com) was shown as my ISP-assigned IP in India.
+   - Speed test showed ~170 Mbps download.
+   
+2. Installed and configured ProtonVPN:
+   - Signed up for ProtonVPN free account.
+   - Installed ProtonVPN client and logged in.
+   - Connected to a free US server.
+
+3. Verification of VPN connection:
+   - Public IP changed from India → US (ProtonVPN server location).
+   - Browsing showed a new geolocation based on VPN IP.
+
+4. Speed comparison:
+   - After connecting to VPN, speed reduced to ~3.6 Mbps due to server load.
+   - Latency increased compared to baseline connection.
+
+5. Encrypted traffic verification:
+   - Opened a HTTPS website in Microsoft Edge.
+   - Checked padlock icon → “Connection is secure”.
+   - Verified in DevTools Security panel → TLS 1.3 encryption active.
+
+Observations:
+- VPN successfully masked my real IP address.
+- VPN connection encrypted my internet traffic.
+- Speed dropped significantly on the free server, highlighting limitations of free VPN services.
+- HTTPS + VPN provided a strong privacy combination.
+
+Conclusion:
+VPNs are valuable tools for protecting online privacy, especially on public Wi-Fi networks. They mask IP addresses, secure data with encryption, and provide anonymity. However, free VPNs often come with speed limitations, fewer server options, and possible reliability issues. For better performance, a trusted paid VPN service is recommended.
